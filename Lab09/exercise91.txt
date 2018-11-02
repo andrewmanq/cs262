@@ -1,0 +1,12 @@
+a. 3 endpoints: player, players, and players/id
+b. 
+	i JDBC statement object
+	ii
+		1. SQL query statements are raw SQL commands that interface directly to an SQL database. JDBC statement objects are a java implementation of calling SQL commands.
+
+		2. An SQL relation is a database implementation of the relational theory of data representation (which consists of attributes and tuples). JDBC is a subset of a database returned by a query, implemented in Java. The List is a data structure that holds objects that can be accessed through java's standard library.
+	iii implementing an SQL query that returns either a value, or NULL depending on the query results.
+
+c.
+	i It translates the table results from a monopoly database into an object-oriented player structure that holds the column data as object attributes.
+	ii Very similar, using an ID number value and the two corresponding string values.
