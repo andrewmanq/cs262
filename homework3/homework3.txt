@@ -1,0 +1,8 @@
+Andrew Quist
+Homework 3
+
+1.
+	a. The service is RESTful. Using CRUD http requests, the stateless endpoints send JSON via url.
+	b. v1/player/# and v1/player - both are idempotent and nullipotent, they do not change when requests are made.
+	c. The JDBC Object model takes a relational postgress database and maps it into an object, so there is evidence that it works.
+	d. Not currently, the requests only send information and does not insert anything into its database.
