@@ -35,49 +35,56 @@ public class MainActivity extends AppCompatActivity {
     public void calculate(View view) {
         //do calculations
         int num1;
-        if (input1.getText().length() != 0) {
+        if(input1.getText().length() != 0) {
             num1 = Integer.parseInt(input1.getText().toString());
-        } else {
+        }else{
             num1 = 0;
         }
 
         int num2;
-        if (input2.getText().length() != 0) {
+        if(input2.getText().length() != 0) {
             num2 = Integer.parseInt(input2.getText().toString());
-        } else {
+        }else {
             num2 = 0;
         }
 
-        try {
+        try{
 
             String op = opSpinner.getSelectedItem().toString();
-            if (op.equals("+")) {
-                displayAnswer(num1 + num2);
-            } else if (op.equals("-")) {
-                displayAnswer(num1 - num2);
-            } else if (op.equals("/")) {
-                displayAnswer((float) num1 / (float) num2);
-            } else if (op.equals("*")) {
-                displayAnswer(num1 * num2);
-            } else {
-                displayAnswer("ERROR: operator selection problem");
+
+            switch (op) {
+                case "+":
+                    displayAnswer(num1 + num2);
+                    break;
+                case "-":
+                    displayAnswer(num1 - num2);
+                    break;
+                case "/":
+                    displayAnswer( (float) num1 / (float)num2);
+                    break;
+                case "*":
+                    displayAnswer( num1 * num2);
+                    break;
+                default:
+                    displayAnswer("ERROR: operator selection problem");
+                    break;
             }
 
-        } catch (Exception e) {
+        }catch(Exception e){
             displayAnswer("ERROR");
         }
     }
 
-    private void displayAnswer(String s) {
+    private void displayAnswer(String s){
         answerTex.setText(s);
     }
 
-    private void displayAnswer(int myInt) {
+    private void displayAnswer(int myInt){
         String ans = Integer.toString(myInt);
         answerTex.setText(ans);
     }
 
-    private void displayAnswer(float myFloat) {
+    private void displayAnswer(float myFloat){
         String ans = Float.toString(myFloat);
         answerTex.setText(ans);
     }

@@ -1,0 +1,10 @@
+Andrew Quist
+Homework 3
+reviewing ClamminTroops
+
+2.
+	a. The project management materials show that all members are participating. Each card is clear and concise.
+	b. The updated domain model is more informative. I'd like to see some footnotes of how these elements interact with each other, but that's not exactly a requrement for the model itself. An all-to all relationship makes sense for the app.
+	The database makes sense, and every class has a unique id. The references are correct and the example entries are useful.
+	c. Not much code has been committed recently, and it was only committed by one person. The code runs though, and works perfectly fine.
+	d. The design presentation worked very well. The slides might have been a little distracting at times, but they were funny and I don't mind a little humor. I enjoyed when Gavin "accidentally" called it Tinder. The live demo was great, and I could not find anything wrong with the overall presentation. I think theirs was the best one.

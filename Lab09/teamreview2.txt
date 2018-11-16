@@ -1,0 +1,13 @@
+I'm reviewing ClamminTroops for Pinder.
+
+    Does their Trello board show the appropriate amount of activity?
+Yes. The cards are specific and plentyful. Time management is spread out well.
+
+    Write a one-to-two-paragraph review of their models. Are their user stories, class model and UI model well-formulated? Do they describe a coherent system?
+The user stories of Pinder paint a great picture of the types of interactions the app facilitates. Now I understand the role of each user, and I can better pinpoint the functions of the app. Pinder's class model is simplistic, but it does the trick. More work probably could have gone into it. The use-case diagram, on the other hand, works well in tandem with their user story. The UI model is clear and informative. All in all, the system is very well formulated and paints a good picture of how the app will function.
+
+    Has there been an appropriate amount of code pushed into their client repo? Can you run the prototype? If so, does the application make sense to you?
+There has been a lot of code pushed to the repo, and the application is already semi-functional. It definitely makes sense at this point.
+
+    Does their supplemental specification address non-functional requirements? Are they missing anything important?
+I can't find any supplemental specifications.

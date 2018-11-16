@@ -1,0 +1,7 @@
+Homework 1:
+
+	The only change suggested was adding a switch case to mainActivity.java, so I did.
+
+Homework 2:
+
+	I removed a ton of unused imports, and made many variables private.
